@@ -5,13 +5,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: var(--primary);
-  background-color: var(--light);
-  line-height: 1.5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: lightgray;
 }
-
-
 
 header {
   padding: 5% 5% 0;
@@ -36,7 +33,6 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
 }
 
 nav a {
@@ -51,20 +47,20 @@ nav a:hover {
   color: black;
 }
 
-
 main {
   margin-top: 20px;
   margin-bottom: 45px;
 }
 
 .hero-banner {
-  background: darkslategrey;
+  background: transparent;
   min-height: 30vh;
   padding: 2% 6%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
+  background-image: url(assets\images\polly-background-1631651.jpg);
 }
 
 .hero-banner div {
@@ -87,17 +83,16 @@ img {
 }
 
 .examples {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    border: 5px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 5px black;
 }
 
 #picOne {
   max-width: 1000px;
   max-height: auto;
   width: 80%;
-  
 }
 
 .page-section {
@@ -127,5 +122,3 @@ footer {
   text-align: center;
   font-size: small;
 }
-
-
